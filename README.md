@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/hemantsirsat/challenge-7)
-- Live Site URL: (https://your-live-site-url.com)
+- Solution URL: https://github.com/hemantsirsat/challenge-7
+- Live Site URL: https://challenge-7-jet.vercel.app/
 
 ## My process
 
