@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-/* font-family: 'Poppins', sans-serif; */
-
 .container {
     display: flex;
     background-color: hsl(0,0%,98%);
@@ -18,11 +16,7 @@
     flex: 1;
     color: hsl(234,12%,34%);
     flex-direction: column;
-}
-
-.cards {
-    display: flex;
-    flex: 2;
+    margin-top: 3rem;
 }
 
 .reliable {
@@ -41,6 +35,123 @@
     font-size: 1.3ch;
     margin-top: -1rem;
 }
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:2;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.column1, .column2, .column3 {
+    display: flex;
+}
+
+.column1 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column3 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cardcontainer {
+    background-color: white;
+    margin: 1rem;
+    width: 21rem;
+    height: 15rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.topcolor {
+    display: flex;
+    height: 0.3rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.cardtext{
+    flex:1;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.cardheader {
+    color: hsl(234,12%,34%);
+    font-size: 2ch;
+    font-weight: 600;
+}
+
+.carddescription {
+    color: hsl(229,6%,66%);
+    font-size: 1.3ch;
+    margin-top: -0.5rem;
+}
+
+.cardpicture {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.cardpicture img {
+    margin-right: 2rem;
+}
+
+
+@media (max-width:1100px){
+    .cardcontainer {
+        margin: 0.8rem;
+        width: 19rem;
+        height: 14rem;
+    }
+}
+
+@media (max-width:986px){
+    .cardcontainer {
+        margin: 0.7rem;
+        width: 17rem;
+        height: 15.5rem;
+    }
+}
+
+@media (max-width:886px){
+    .cards {
+        flex-direction: column;
+    }
+
+    .cardcontainer {
+        margin: 0.8rem;
+        width: 21rem;
+        height: 15rem;
+    }
+}
+
+@media (max-width:368px){
+    .cardcontainer {
+        margin: 0.8rem;
+        width: 18rem;
+        height: 15rem;
+    }
+}
+
 
 @media (max-width:498px) {
     .description {
